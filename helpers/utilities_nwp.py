@@ -590,7 +590,7 @@ class Utilities_nwp():
         axs[i,j].clabel(img2, inline=1, inline_spacing=0, fontsize='10',\
          fmt = '%1.0f', colors= 'black')
         # Add a colorbar
-        plt.colorbar(img1, label='Isotachs (kt)', orientation='vertical',\
+        plt.colorbar(img1, label='Isotachs (m/s)', orientation='vertical',\
          pad=0.02, fraction=0.05, ax=axs[i,j], shrink=0.85)
 
         # STREAMLINES
